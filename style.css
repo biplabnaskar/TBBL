@@ -20,12 +20,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  flex-direction: column;
    
 }
 
 .table{
+  display: flex;
   padding: 50px;
   justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+   
 }
 
 .table_wrapper1{
